@@ -1,0 +1,16 @@
+#overflow{
+    border: 3px solid black;
+    /* overflow-x: scroll; */
+    width: 300px;
+    /* overflow: hidden; */
+}
+
+#scroll {
+    /* white-space: nowrap; */
+    margin-left: 5px;
+    text-overflow: ellipsis;
+}
+
+#overflow::-webkit-scrollbar {
+    display: none;
+}
