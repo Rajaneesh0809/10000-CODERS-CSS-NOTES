@@ -12,9 +12,11 @@
 }
 
 #overflow::-webkit-scrollbar {
-    /* display: none; */
+    display: none;
 }
 
+
+#overflow::-webkit-scrollbar
 
 
 #hover {
