@@ -23,15 +23,29 @@
             <li>absolute</li>
             <ul>
                 <li>position: absolute</li>
-                <li>by applying this style the element directly goes to the viewport(default device-width) i.e., its ancestor</li>
+                <li>by applying this style the element directly goes to its ancestor i.e.,the viewport(default device-width)</li>
                 <li>changing the values in the properties:top, left, right, bottom; will change the position with respect to the viewport</li>
             </ul>
             <li>sticky</li>
+            <ul>
+                <li>tomorrow</li>
+            </ul>
             <li>fixed</li>
+            <ul>
+                <li>position: fixed</li>
+                <li>it makes the element fixed on a particular place irrespective of other elements</li>
+            </ul>
         </ul> 
     </p>
-    <p>After applying specific position(other than static), we can change further change the position using left, right, top, bottom properties</p>
+    <p>After applying specific position(other than static), we can further change the position using left, right, top, bottom properties.
+        Here, top has more priority than bottom. Similarly left has more priority than right.
+        However, these properties work for only positioned elements i.e., elements whose position is other than static.
+    </p>
     <p>Using Positions for elements may result in overlapping. z-index property is used to give the priority. Higher the value, higher the priority,</p>
+
+
+    <h3>TASK</h3>
+    <p>Build a Chat UI with the messages scrolling and watermark. eg: Whatsapp Chat</p>
 
 </body>
 </html>
