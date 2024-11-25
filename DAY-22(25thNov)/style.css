@@ -1,0 +1,12 @@
+img {
+    height: 100px;
+}
+#d1 {
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    align-items: end;
+    padding: 50px;
+}
