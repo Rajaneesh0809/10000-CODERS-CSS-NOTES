@@ -1,0 +1,17 @@
+h3::first-letter{
+    color: #8A2BE2;
+    border: 2px solid;
+    font-size: 2em;
+}
+
+#concepts{
+    margin-left: 5%;
+}
+
+/* h1, h3 {
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1.5em;
+} */
